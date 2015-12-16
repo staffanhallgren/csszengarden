@@ -5,35 +5,44 @@
 }
 
 body {
-  background-image: url();
+  background-image: url(christredeemersmaller.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 h1 {
   display: flex;
+  justify-content: center;
+  padding-bottom: 60%;
+  font-size: 4em;
 }
 
 h2 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end; 
+
 }
 
 .summary {
-  display: inline-block;
-  padding-left: 0;
+ 
 }
 
 
-@media (min-width: 789px) {
+@media screen and (max-width: 768px) {
 
 	.page-wrapper {
 		width: 100%;
 	}
   
-  .summary {
-    padding-left: 75%;
+  h1 {
+    padding-bottom: 40%;
+    font-size 2em;
   }
 
+}
+
+@media screen and (max-width: 482px) {
+ 
+    h1 {
+    padding-bottom: 10%;
+    font-size 1em;
+  }
 }
