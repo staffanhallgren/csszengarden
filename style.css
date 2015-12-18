@@ -8,6 +8,7 @@ h1 {
   background-size: cover;
   height: 700px;
   margin: 0 auto;
+  padding-bottom: 2%;
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -26,18 +27,22 @@ li a {
 }
 
 p a {
-  color: grey;
+  color: #A28351;
   text-decoration: none;
 }
 
 footer a {
-  
+  color: #A28351;
+  text-decoration: none;
+}
+
+.aside {
+  text-align: center;
 }
 
 .page-wrapper {
   font-family: sans-serif;
 }
-
 
 
 .designer-name {
@@ -47,6 +52,10 @@ footer a {
 .wrapper {
   float: left;
   
+}
+
+.design-selection {
+  background-image: none;
 }
 
 
@@ -60,6 +69,7 @@ footer a {
   }
   
   .preamble {
+    background: rgba(120, 120, 120, 0.2);
     border-top: 1px solid black;
     border-right: 3px solid black;
     float: left;
@@ -84,6 +94,7 @@ footer a {
   }
   
   .main {
+    background: rgba(120, 120, 120, 0.2);
     border-top: 1px solid black;
     border-right: 3px solid black;
     float: left;
@@ -100,6 +111,23 @@ footer a {
     width: 30%;
   }
   
-
+  .design-selection {
+    background-image: url(copacabanaboardwalk.png);
+    height: 1200px;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin: 0px 0px -750px 0px;
+    padding-top: 10%;
+    text-align: center;
+  }
+  
+  .design-archives {
+    text-align: center;
+    margin: 0px 0px 300px 0;
+  }
+  
+  .zen-resources {
+    text-align: center;
+  }
 
 }
