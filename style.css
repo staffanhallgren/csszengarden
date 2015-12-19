@@ -8,7 +8,7 @@ h1 {
   background-size: cover;
   height: 700px;
   margin: 0 auto;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
@@ -16,6 +16,7 @@ h1 {
   
 }
 
+ 
 
 ul li {
   list-style: none;
@@ -31,9 +32,31 @@ p a {
   text-decoration: none;
 }
 
+footer {
+  text-align: center;
+}
+
 footer a {
   color: #A28351;
   text-decoration: none;
+}
+
+.design-selection h3 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+  
+.design-archives h3 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.zen-resources h3 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .aside {
@@ -44,14 +67,12 @@ footer a {
   font-family: sans-serif;
 }
 
-
 .designer-name {
   font-family: monospace;
 }
 
 .wrapper {
   float: left;
-  
 }
 
 .design-selection {
@@ -61,11 +82,34 @@ footer a {
 
 @media (min-width: 768px) {
   
+  footer {
+    word-spacing: 80px;
+  }
+  
+  .design-selection h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .design-archives h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .zen-resources h3 {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
   .summary {
     border-right: 3px solid black;
     float: left;
     padding-right: 0.5%;
     width: 69%;
+    line-height: 150%;
   }
   
   .preamble {
@@ -74,6 +118,7 @@ footer a {
     border-right: 3px solid black;
     float: left;
     padding-right: 0.5%;
+    line-height: 150%;
     width: 69%;
   }
   
@@ -99,6 +144,7 @@ footer a {
     border-right: 3px solid black;
     float: left;
     padding-right: 0.5%;
+    line-height: 150%;
     width: 69%;
   }
   
@@ -108,7 +154,7 @@ footer a {
     position: absolute;
     right: 0;
     top: 700px;
-    width: 30%;
+    width: 30.5%;
   }
   
   .design-selection {
@@ -116,14 +162,14 @@ footer a {
     height: 1200px;
     letter-spacing: 1px;
     line-height: 200%;
-    margin: 0px 0px -750px 0px;
-    padding-top: 10%;
+    margin: 0px 0px -1250px 0px;
+    padding-top: 50%;
     text-align: center;
   }
   
   .design-archives {
     text-align: center;
-    margin: 0px 0px 300px 0;
+    margin: 0px 0px 1000px 0;
   }
   
   .zen-resources {
