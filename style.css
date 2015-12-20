@@ -1,5 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Lora|Source+Sans+Pro|Droid+Serif);
 
-
+body {
+  margin-top: 0;
+}
 
 h1 {
   background-image: url('christredeemersmaller.png');
@@ -7,16 +10,15 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  margin: 0 auto;
-  padding-bottom: 1%;
+  padding-bottom: 1%;;
+  margin: 0 -70px 0 -70px;
   text-align: center;
   text-transform: uppercase;
-  font-family: sans-serif;
   font-size: 5em;
-  
+  line-height: 200px;
 }
 
- 
+
 
 ul li {
   list-style: none;
@@ -64,7 +66,7 @@ footer a {
 }
 
 .page-wrapper {
-  font-family: sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .designer-name {
@@ -79,13 +81,26 @@ footer a {
   background-image: none;
 }
 
+[role=contentinfo] {
+  font-size: 1.2em;
+}
+  
+
+
 
 @media (min-width: 768px) {
   
-  footer {
-    word-spacing: 80px;
+  body {
+  margin: 0 70px 0 70px;
   }
   
+  footer {
+    text-align: right;
+  }
+  
+  .page-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
   .design-selection h3 {
     text-indent: 100%;
     white-space: nowrap;
@@ -113,9 +128,8 @@ footer a {
   }
   
   .preamble {
-    background: rgba(120, 120, 120, 0.2);
     border-top: 1px solid black;
-    border-right: 3px solid black;
+    border-right: 2px solid black;
     float: left;
     padding-right: 0.5%;
     line-height: 150%;
@@ -139,9 +153,8 @@ footer a {
   }
   
   .main {
-    background: rgba(120, 120, 120, 0.2);
     border-top: 1px solid black;
-    border-right: 3px solid black;
+    border-right: 2px solid black;
     float: left;
     padding-right: 0.5%;
     line-height: 150%;
@@ -154,7 +167,7 @@ footer a {
     position: absolute;
     right: 0;
     top: 700px;
-    width: 30.5%;
+    width: 32.5%;
   }
   
   .design-selection {
@@ -164,16 +177,26 @@ footer a {
     line-height: 200%;
     margin: 0px 0px -1250px 0px;
     padding-top: 50%;
-    text-align: center;
   }
   
   .design-archives {
-    text-align: center;
-    margin: 0px 0px 1000px 0;
+    margin: 0px 0px 1350px 0;   
   }
   
   .zen-resources {
     text-align: center;
+    padding-right: 40px;
+  }
+  
+  [role=contentinfo] {
+    border-top: 1px solid black;
+    font-size: 1.2em;
+    padding-top: 70px;
+    margin-bottom: -20px;
+  }
+  
+  [role=contentinfo] a {
+    font-family: sans-serif;
   }
 
 }
