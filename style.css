@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px|Lora|Source+Sans+Pro|Droid+Serif);
 
+/* github repoistory: https://github.com/staffanhallgren/csszengarden.git */
+
 body {
   margin-top: 0;
 }
@@ -9,16 +11,14 @@ h1 {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 5em;
   height: 700px;
-  padding-bottom: 1%;;
+  line-height: 200px;
   margin: 0 -70px 0 -70px;
+  padding-bottom: 1%;;
   text-align: center;
   text-transform: uppercase;
-  font-size: 5em;
-  line-height: 200px;
 }
-
-
 
 ul li {
   list-style: none;
@@ -44,21 +44,21 @@ footer a {
 }
 
 .design-selection h3 {
+  overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden;
 }
   
 .design-archives h3 {
+  overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .zen-resources h3 {
+  overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden;
 }
 
 .aside {
@@ -102,37 +102,37 @@ footer a {
     font-family: 'Source Sans Pro', sans-serif;
   }
   .design-selection h3 {
+    overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
   }
   
   .design-archives h3 {
+    overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
   }
 
   .zen-resources h3 {
+    overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    overflow: hidden;
   }
   
   .summary {
     border-right: 3px solid black;
     float: left;
+    line-height: 150%;
     padding-right: 0.5%;
     width: 69%;
-    line-height: 150%;
   }
   
   .preamble {
     border-top: 1px solid black;
     border-right: 2px solid black;
     float: left;
-    padding-right: 0.5%;
     line-height: 150%;
+    padding-right: 0.5%;
     width: 69%;
   }
   
@@ -156,8 +156,8 @@ footer a {
     border-top: 1px solid black;
     border-right: 2px solid black;
     float: left;
-    padding-right: 0.5%;
     line-height: 150%;
+    padding-right: 0.5%;
     width: 69%;
   }
   
@@ -184,19 +184,18 @@ footer a {
   }
   
   .zen-resources {
-    text-align: center;
     padding-right: 40px;
+    text-align: center;
   }
   
   [role=contentinfo] {
     border-top: 1px solid black;
     font-size: 1.2em;
-    padding-top: 70px;
     margin-bottom: -20px;
+    padding-top: 70px;
   }
   
   [role=contentinfo] a {
     font-family: sans-serif;
   }
-
 }
